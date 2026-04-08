@@ -58,7 +58,7 @@ public class FirebaseManager : MonoBehaviour
             score = score,
             pipes = pipes,
             duration = duration
-        };
+        }; 
 
         string json = JsonUtility.ToJson(payload);
         SubmitScoreToFirestore(json);
